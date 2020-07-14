@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Assignment-3</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+	
+	var d = new Date();
+	
+	var yyyy = d.getFullYear();
+	var mm   = d.getMonth();
+	var dd   = d.getDate();	
+
+	if(dd<10)
+	{
+		dd='0'+dd;
+	}
+
+	if(mm<10)
+	{
+		mm='0'+mm;
+	}
+
+	document.write("1) mm-dd-yyyy format : " + (mm+"-"+dd+"-"+yyyy));
+	 document.write("<br/>"); 
+	document.write("2) mm/dd/yyyy format : " + (mm+"/"+dd+"/"+yyyy));
+	  document.write("<br/>"); 
+	document.write("3) dd-mm-yyyy format : " + (dd+"-"+mm+"-"+yyyy));
+	   document.write("<br/>"); 
+	document.write("4) dd/mm/yyyy format : " + (dd+"/"+mm+"/"+yyyy));
+	</script>
+</body>
+</html>
