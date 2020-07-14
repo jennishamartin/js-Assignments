@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Assignment-1</title>
+</head>
+<body>
+	<script type="text/javascript">
+		 var mdate = new Date(); 
+        var mday = mdate.getDay(); 
+        
+        // Array of days. 
+        var days = ['Sunday', 'Monday', 'Tuesday', 
+            'Wednesday', 'Thursday', 'Friday', 'Saturday' 
+        ]; 
+        document.write("Today is : " + days[mday]); 
+        document.write("<br/>"); 
+    
+        var hour = mdate.getHours(); 
+        var pmam = hour >= 12 ? 'PM' : 'AM'; 
+        
+        var minute = mdate.getMinutes(); 
+       
+        var t = hour + " " + pmam + " : " + minute +  " : " + mdate.getMilliseconds(); 
+        document.write("Current time is : " + t); 
+		
+	</script>
+	
+</body>
+</html>
