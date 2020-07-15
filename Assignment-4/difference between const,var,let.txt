@@ -1,0 +1,16 @@
+const :
+
+	const statement values can be assigned once and they cannot be reassigned. The scope of const statement works similar to let statements.
+
+Var :
+   
+         The JavaScript variables statement is used to declare a variable and, optionally, we can initialize the value of that variable.
+
+         The scope of a JavaScript variable declared with var is its current execution context.
+
+
+let  :
+    
+        The let statement declares a local variable in a block scope. It is similar to var, in that we can optionally initialize the variable.
+
+        The let statement allows you to create a variable with the scope limited to the block on which it is used.
